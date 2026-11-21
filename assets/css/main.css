@@ -1,0 +1,69 @@
+:root {
+  --pine: #1d4a38;
+  --deep-pine: #092f20;
+  --paper: #f6f4ec;
+  --white: #fffefa;
+  --sage: #afc0b2;
+  --stamp: #c6383d;
+  --ink: #10251c;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "DM Sans", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  color: var(--deep-pine);
+  letter-spacing: -.02em;
+}
+
+a { color: var(--pine); }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px clamp(20px, 4vw, 64px);
+  border-bottom: 1px solid rgba(29,74,56,.14);
+}
+
+.site-logo {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--deep-pine);
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 24px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.site-nav a { text-decoration: none; }
+
+main {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  padding: clamp(28px, 4vw, 64px);
+}
+
+.site-footer {
+  padding: 24px clamp(20px, 4vw, 64px);
+  font-size: 13px;
+  color: rgba(16,37,28,.66);
+}
