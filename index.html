@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ec">
+  <meta name="description" content="Gras Games is the neighbourhood table for modern board games. Curious games. Good people. One more round.">
+  <title>Gras Games — Curious games. Good people.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+  <main class="homepage">
+    <section class="hero" aria-label="Home">
+      <header class="hero__header">
+        <a class="hero__brand" href="#home" data-home>
+          <span class="hero__logo"><img src="assets/images/logo.jpg" alt=""></span>
+          <span class="hero__wordmark">Gras<br>Games</span>
+        </a>
+        <p class="hero__shout">Let’s play<span class="hero__shout-dot">.</span></p>
+        <nav class="nav" aria-label="Main navigation">
+          <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+            <span class="nav__bar"></span>
+            <span class="nav__bar"></span>
+            <span class="nav__bar"></span>
+          </button>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li><button class="nav__link" type="button" data-panel="0">Games</button></li>
+              <li><button class="nav__link" type="button" data-panel="1">About</button></li>
+              <li><button class="nav__link" type="button" data-panel="2">Contact</button></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="hero__copy" id="home">
+        <p class="eyebrow">The neighbourhood table for modern board games</p>
+        <h1 class="hero__title">Curious games.<br>Good people.</h1>
+        <div class="hero__footer">
+          <p class="hero__text">Clever without being exclusive, characterful without being childish. Pull up a chair — we’ll help you find your next favourite game.</p>
+          <button class="round-arrow" type="button" data-panel="0" aria-label="Browse games">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M5 14h17M15 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <button class="pick-tab" type="button" data-pick>
+        <span class="pick-tab__dot"></span>
+        <span>Ask for a pick</span>
+      </button>
+      <button class="home-tab" type="button" data-home aria-label="Back to home" hidden>
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M5 14h17M15 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+      </button>
+    </section>
+
+    <section class="panel panel--pine" aria-labelledby="tab-0">
+      <button class="panel__tab" id="tab-0" type="button" aria-expanded="false" aria-controls="panel-0">
+        <span class="panel__index">01</span>
+        <span class="panel__label">Games</span>
+        <span class="panel__symbol" aria-hidden="true">+</span>
+      </button>
+      <div class="panel__content" id="panel-0" inert>
+        <p class="eyebrow">01 — Find your next favourite</p>
+        <div class="panel__story">
+          <h2 class="panel__title">Find your next table favourite.</h2>
+          <p class="panel__text">Unusual worlds, clever mechanics and the makers behind them. Every game comes with what you actually need to know: player count, play time and complexity.</p>
+          <a class="text-link" href="games/">Browse games
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M5 14h17M15 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel--sage" aria-labelledby="tab-1">
+      <button class="panel__tab" id="tab-1" type="button" aria-expanded="false" aria-controls="panel-1">
+        <span class="panel__index">02</span>
+        <span class="panel__label">About</span>
+        <span class="panel__symbol" aria-hidden="true">+</span>
+      </button>
+      <div class="panel__content" id="panel-1" inert>
+        <p class="eyebrow">02 — Playfully offbeat, seriously welcoming</p>
+        <div class="panel__story">
+          <h2 class="panel__title">Everyone gets a seat at the table.</h2>
+          <p class="panel__text">No gatekeeping, no jargon. We guide like a friend who loves games, not an expert who wants to lecture — whether it’s your first game night or your fiftieth.</p>
+          <a class="text-link" href="about/">Our story
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M5 14h17M15 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel--stamp" aria-labelledby="tab-2">
+      <button class="panel__tab" id="tab-2" type="button" aria-expanded="false" aria-controls="panel-2">
+        <span class="panel__index">03</span>
+        <span class="panel__label">Contact</span>
+        <span class="panel__symbol" aria-hidden="true">+</span>
+      </button>
+      <div class="panel__content" id="panel-2" inert>
+        <p class="eyebrow">03 — Say hello</p>
+        <div class="panel__story">
+          <h2 class="panel__title">Every good game starts with an invite.</h2>
+          <p class="panel__text">A question, a game we should know about, or a group looking for something new? Write to us. We’d love to hear what’s on your table.</p>
+          <a class="text-link" href="contact/">Get in touch
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M5 14h17M15 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="modal" aria-labelledby="pick-title">
+    <button class="modal__close" type="button" aria-label="Close" autofocus>×</button>
+    <div class="dots" aria-hidden="true"></div>
+    <h2 class="modal__title" id="pick-title">Not sure what to play?</h2>
+    <p class="modal__text">Tell us how many players, how much time you have and the last game you loved. We’ll suggest a few worth bringing to the table.</p>
+    <a class="text-link" href="contact/">Ask for a pick
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M5 14h17M15 6l8 8-8 8" stroke="currentColor" stroke-width="1.6"/></svg>
+    </a>
+  </dialog>
+
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
