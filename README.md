@@ -9,6 +9,7 @@ games/index.html      Games catalog
 games/_template.html  Copy to games/<game-slug>.html for each game, then link it from the catalog
 about/index.html      About overview (styles in assets/css/about.css)
 about/impact.html     About subpage: purposeful and sustainable play
+services/index.html   Services: concierge, PLAY! cafe, studio, store (reuses about.css)
 contact/index.html
 assets/css/main.css   Shared styles and brand tokens
 assets/images/        Logo and images
