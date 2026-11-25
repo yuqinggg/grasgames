@@ -7,7 +7,8 @@ Plain static site — no build step. Open `index.html` in a browser, or serve th
 index.html            Homepage (styles in assets/css/home.css, script in assets/js/home.js)
 games/index.html      Games catalog
 games/_template.html  Copy to games/<game-slug>.html for each game, then link it from the catalog
-about/index.html
+about/index.html      About overview (styles in assets/css/about.css)
+about/impact.html     About subpage: purposeful and sustainable play
 contact/index.html
 assets/css/main.css   Shared styles and brand tokens
 assets/images/        Logo and images
