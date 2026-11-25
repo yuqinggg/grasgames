@@ -7,7 +7,7 @@
   --stamp: #c6383d;
   --ink: #10251c;
 
-  --font-display: "Fraunces", Georgia, serif;
+  --font-display: "Averia Serif Libre", Georgia, serif;
   --font-body: "DM Sans", Arial, sans-serif;
 }
 
@@ -37,13 +37,8 @@ a { color: var(--pine); }
   border-bottom: 1px solid rgba(29,74,56,.14);
 }
 
-.site-logo {
-  font-family: var(--font-display);
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--deep-pine);
-  text-decoration: none;
-}
+.site-logo { flex-shrink: 0; color: var(--pine); }
+.site-logo svg { display: block; height: 44px; width: auto; aspect-ratio: 3573.59 / 1455.21; fill: currentColor; }
 
 .site-nav {
   display: flex;

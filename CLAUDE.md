@@ -7,7 +7,7 @@ Plain static site, no build step. Serve with `python3 -m http.server 8137` (port
 `design/brand-guide.html` is the source of truth for look and voice. Read it before building a new page or changing visual style.
 
 - **Colours:** use the CSS custom properties in `assets/css/main.css`, never hard-coded hex: `--pine` (Grass Pine), `--deep-pine` (Deep Table), `--paper` (Rulebook), `--sage` (Game Sage), `--stamp` (Stamp Red, accents only), `--ink`, `--white`.
-- **Type:** `--font-display` (Fraunces) for headlines, `--font-body` (DM Sans) for interface and body text.
+- **Type:** `--font-display` (Averia Serif Libre, matching the logo) for headlines, `--font-body` (DM Sans) for interface and body text.
 - **Visual language:** organic circles, connected "game-piece" dots, ticket edges, stamped accents, generous paper space. Photography is candid and at table level.
 - **Logo:** clear space equal to its eye. Pine on light backgrounds, white on Pine.
 - **Voice:** short, warm, specific. Curious, human, playful. Guide like a friend, avoid hype, jargon and gatekeeping.
