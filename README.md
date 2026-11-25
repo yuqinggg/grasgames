@@ -11,6 +11,6 @@ about/index.html
 contact/index.html
 assets/css/main.css   Shared styles and brand tokens
 assets/images/        Logo and images
-docs/                 Internal docs (brand guide) — not linked from the site
+design/brand-guide.html  Brand guide — not linked from the site
 design/reference/     Design references (Figma Make homepage, screenshots)
 ```
